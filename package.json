@@ -1,0 +1,17 @@
+{
+  "name": "jitsu-steal",
+  "description": "load env variables and upload them to nodejitsu",
+  "version": "0.0.0",
+  "dependencies": {
+    "flatiron": "0.3.11",
+    "utile": "*"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  }
+}
